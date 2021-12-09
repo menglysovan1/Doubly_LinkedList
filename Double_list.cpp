@@ -26,11 +26,13 @@ bool Double_list<Type>::empty() const{
 }
 
 template <typename Type>
+// Need to throw an exception
 Type Double_list<Type>::front() const{
     return this->list_head->getData();
 }
 
 template <typename Type>
+// Need to throw an exception
 Type Double_list<Type>::back() const{
     
     return this->list_tail->getData();
